@@ -288,6 +288,6 @@ Apache License 2.0
 
 ## 관련 프로젝트
 
-- [hwp-hwpx-parser](https://github.com/code-yeongyu/hwp-hwpx-parser) - 순수 Python HWP/HWPX 파서 (읽기 전용)
+- [hwp-hwpx-parser](https://github.com/KimDaehyeon6873/hwp-hwpx-parser) - 순수 Python HWP/HWPX 파서 (읽기 전용)
 - [hwplib](https://github.com/neolord0/hwplib) - Java HWP 라이브러리
 - [hwpxlib](https://github.com/neolord0/hwpxlib) - Java HWPX 라이브러리
