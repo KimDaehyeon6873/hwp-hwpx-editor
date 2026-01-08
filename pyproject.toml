@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "hwp-hwpx-editor"
-version = "0.1.1"
+version = "0.1.2"
 description = "JVM 기반 HWP/HWPX 문서 편집 라이브러리 (hwp-hwpx-parser 확장)"
 readme = "README.md"
 license = "Apache-2.0"
@@ -29,7 +29,7 @@ classifiers = [
     "Topic :: Text Processing :: Markup",
 ]
 dependencies = [
-    "hwp-hwpx-parser>=0.1.0",
+    "hwp-hwpx-parser>=0.1.2",
     "JPype1>=1.4.0",
 ]
 
