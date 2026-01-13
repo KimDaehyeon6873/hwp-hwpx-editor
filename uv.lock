@@ -509,7 +509,6 @@ wheels = [
 
 [[package]]
 name = "hwp-hwpx-editor"
-version = "0.1.2"
 source = { editable = "." }
 dependencies = [
     { name = "hwp-hwpx-parser" },
@@ -533,7 +532,7 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "black", marker = "extra == 'dev'", specifier = ">=22.0" },
-    { name = "hwp-hwpx-parser", specifier = ">=0.1.2" },
+    { name = "hwp-hwpx-parser", specifier = ">=0.1.0" },
     { name = "jpype1", specifier = ">=1.4.0" },
     { name = "mypy", marker = "extra == 'dev'", specifier = ">=1.0" },
     { name = "pytest", marker = "extra == 'dev'", specifier = ">=7.0" },
@@ -543,14 +542,14 @@ provides-extras = ["dev"]
 
 [[package]]
 name = "hwp-hwpx-parser"
-version = "0.1.2"
+version = "0.1.3"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "olefile" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/2c/13/365662a5999fcd96f9b32604404fbdcd2a1c8720fbdff929bcb8d19997d2/hwp_hwpx_parser-0.1.2.tar.gz", hash = "sha256:30dfcd74d6cfb0462b52105061a10cc84811979c35e30475f7c1a1aba85d0621", size = 27134, upload-time = "2026-01-08T11:55:34.875Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/10/e0/cddf2a058dec24210cc11184b579097fe18b812806c91f874160addf58f7/hwp_hwpx_parser-0.1.3.tar.gz", hash = "sha256:73e57836de6eb1e86e4ec0db8df7f6e767f8b782750788b08501a980a870371d", size = 27136, upload-time = "2026-01-13T02:53:12.452Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/72/27/ce8a7e0d6fbb75f85a4f3326abb06b027dab0bca2ac4f4e31a558c658b2d/hwp_hwpx_parser-0.1.2-py3-none-any.whl", hash = "sha256:bbc96eafcaae3ea7ac3b9b05aa764970a4232cb4c0ccdc1d10db41f695684210", size = 22590, upload-time = "2026-01-08T11:55:32.729Z" },
+    { url = "https://files.pythonhosted.org/packages/98/4e/1077ad9acd6b990d4be5e1a1290703384b3d2421bb749fb79441556aa038/hwp_hwpx_parser-0.1.3-py3-none-any.whl", hash = "sha256:4c21d1f20761689741f604914571497469de91a733851af228c9bb7e559874c9", size = 22599, upload-time = "2026-01-13T02:53:11.052Z" },
 ]
 
 [[package]]

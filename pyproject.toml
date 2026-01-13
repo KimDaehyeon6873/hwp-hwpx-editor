@@ -1,10 +1,10 @@
 [build-system]
-requires = ["setuptools>=61.0", "wheel"]
+requires = ["setuptools>=61.0", "setuptools-scm>=8.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "hwp-hwpx-editor"
-version = "0.1.2"
+dynamic = ["version"]
 description = "JVM 기반 HWP/HWPX 문서 편집 라이브러리 (hwp-hwpx-parser 확장)"
 readme = "README.md"
 license = "Apache-2.0"
@@ -29,7 +29,7 @@ classifiers = [
     "Topic :: Text Processing :: Markup",
 ]
 dependencies = [
-    "hwp-hwpx-parser>=0.1.2",
+    "hwp-hwpx-parser>=0.1.0",
     "JPype1>=1.4.0",
 ]
 
@@ -58,3 +58,7 @@ dev = [
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+
+[tool.setuptools_scm]
+version_scheme = "guess-next-dev"
+local_scheme = "no-local-version"

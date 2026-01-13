@@ -16,7 +16,12 @@ hwp-hwpx-parser의 확장 패키지로, JVM(Java)을 사용하여 문서 편집 
     - hwp-hwpx-parser (자동 설치)
 """
 
-__version__ = "0.1.0"
+try:
+    from importlib.metadata import version
+
+    __version__ = version("hwp-hwpx-editor")
+except Exception:
+    __version__ = "0.0.0"
 
 from .parser import HWPParser as HWPEditor
 from .document import Document, DocumentType
